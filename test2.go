@@ -32,7 +32,11 @@ func main(){
 		sum += num
 	}
 	fmt.Println(sum)
-	
+	//对象遍历
+	kvs := map[string]string{"name":"hyh","sex":"male"}
+	for k,v:= range kvs{
+		fmt.Println(k,v)
+	}
 }
 
 
